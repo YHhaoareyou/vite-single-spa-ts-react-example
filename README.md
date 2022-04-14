@@ -2,6 +2,8 @@
 
 This project is a React TypeScript single-spa application; referring to https://github.com/joeldenning/vite-single-spa-example , a vite Vue application that functions as a single-spa application.
 
+*Vue example: https://github.com/YHhaoareyou/vite-single-spa-ts-vue-example*
+
 ## Local dev
 
 ```sh
