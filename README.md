@@ -6,6 +6,7 @@ Instead of Webpack, this project uses Vite & TypeScript for each micro-frontends
 Please refer to the [Root-config](https://github.com/YHhaoareyou/vite-single-spa-ts-root-config) example for our motivation, faced issues, and implementation.
 
 *Root-config example: https://github.com/YHhaoareyou/vite-single-spa-ts-root-config*
+
 *Vue micro-frontends app example: https://github.com/YHhaoareyou/vite-single-spa-ts-vue-example*
 
 ## Local development
