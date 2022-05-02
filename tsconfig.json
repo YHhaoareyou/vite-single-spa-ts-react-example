@@ -1,5 +1,7 @@
 {
+  "extends": "ts-config-single-spa",
   "compilerOptions": {
+    "importHelpers": true,
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
@@ -10,11 +12,13 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
+    "types": ["vite/client"],
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react",
+    "baseUrl": "./src",
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
